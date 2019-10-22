@@ -9,6 +9,32 @@
 [![semantic-release][semantic-release-badge]][semantic-release-link]
 [![Dependabot Status][dependabot-badge]][dependabot-link]
 
+## Usage
+1. Install this config and @commitlint/cli and husky in `devDependency`:
+```bash
+yarn add @xerox/commitlint-config @commitlint/cli husky --dev
+# or
+npm install @xerox/commitlint-config @commitlint/cli husky --save-dev
+```
+2. Extend this configuration:
+```jsonc
+// package.json
+{
+  // ...
+  "commitlint": {
+    "extends": [
+      "@xerox/commitlint-config"
+    ]
+  },
+  // ...
+}
+```
+3. Create a `.huskyrc.js` file in your project root with the following contents:
+```javascript
+module.exports = require('@xerox/commitlint-config/.huskyrc.json');
+
+```
+
 ---
 
 [LICENSE][license] | [CHANGELOG][changelog] | [ISSUES][issues]
