@@ -1,6 +1,6 @@
-# npm-typescript
+# @xerox/commitlint-config
 
-> A repository template for creating npm modules with TypeScript in the @xeroxinteractive org.
+> commitlint shareable config for Xerox projects
 
 [![circleci status][circleci-badge]][circleci-link]
 [![npm package][npm-badge]][npm-link]
@@ -15,15 +15,15 @@
 
 [license]: ./LICENSE
 [changelog]: ./CHANGELOG.md
-[issues]: https://github.com/xeroxinteractive/npm-typescript/issues
+[issues]: https://github.com/xeroxinteractive/commitlint-config/issues
 
-[circleci-badge]: https://flat.badgen.net/circleci/github/xeroxinteractive/npm-typescript/master
-[circleci-link]: https://circleci.com/gh/xeroxinteractive/npm-typescript/tree/master
+[circleci-badge]: https://flat.badgen.net/circleci/github/xeroxinteractive/commitlint-config/master
+[circleci-link]: https://circleci.com/gh/xeroxinteractive/commitlint-config/tree/master
 
-[npm-badge]: https://flat.badgen.net/npm/v/@xerox/npm-typescript?color=cyan
-[npm-link]: https://www.npmjs.com/package/@xerox/npm-typescript
+[npm-badge]: https://flat.badgen.net/npm/v/@xerox/commitlint-config?color=cyan
+[npm-link]: https://www.npmjs.com/package/@xerox/commitlint-config
 
-[license-badge]: https://flat.badgen.net/npm/license/@xerox/npm-typescript
+[license-badge]: https://flat.badgen.net/npm/license/@xerox/commitlint-config
 
 [commit-style-badge]: https://flat.badgen.net/badge/commit%20style/angular/purple
 [commit-style-link]: https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines
@@ -31,5 +31,5 @@
 [semantic-release-badge]: https://flat.badgen.net/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80/semantic%20release/e10079
 [semantic-release-link]: https://github.com/semantic-release/semantic-release
 
-[dependabot-badge]: https://flat.badgen.net/dependabot/xeroxinteractive/npm-typescript?icon=dependabot
+[dependabot-badge]: https://flat.badgen.net/dependabot/xeroxinteractive/commitlint-config?icon=dependabot
 [dependabot-link]: https://dependabot.com
