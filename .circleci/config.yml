@@ -33,7 +33,7 @@ jobs:
           at: ~/repo
       - add_ssh_keys:
           fingerprints:
-            - 'xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx'
+            - '30:73:bd:96:c5:d8:5e:3d:60:8d:95:33:3a:0e:c5:39'
       - run:
           name: Configure git
           command: |
