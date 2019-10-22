@@ -1,6 +1,6 @@
 {
   "name": "@xerox/commitlint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "semantic-release shareable config for Xerox projects",
   "repository": "git@github.com:xeroxinteractive/commitlint-config.git",
   "homepage": "https://github.com/xeroxinteractive/commitlint-config#readme",
