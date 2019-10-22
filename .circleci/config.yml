@@ -3,7 +3,7 @@ version: 2
 defaults: &defaults
   working_directory: ~/repo
   docker:
-    - image: circleci/node:10.14.1
+    - image: circleci/node:12.9
   resource_class: small
 
 jobs:
@@ -16,8 +16,6 @@ jobs:
             - node-10-cache-{{ checksum "./yarn.lock" }}
       - run: yarn install
       - run: yarn lint
-      - run: yarn type-check
-      - run: yarn test
       - save_cache:
           key: node-10-cache-{{ checksum "./yarn.lock" }}
           paths:
@@ -35,7 +33,7 @@ jobs:
           at: ~/repo
       - add_ssh_keys:
           fingerprints:
-            - 'xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx'
+            - '30:73:bd:96:c5:d8:5e:3d:60:8d:95:33:3a:0e:c5:39'
       - run:
           name: Configure git
           command: |
@@ -51,11 +49,11 @@ workflows:
   install_lint_deploy:
     jobs:
       - install_lint_test
-      # - deploy:
-      #     context: npm
-      #     requires:
-      #       - install_lint_test
-      #     filters:
-      #       branches:
-      #         only:
-      #           - master
+      - deploy:
+          context: npm
+          requires:
+            - install_lint_test
+          filters:
+            branches:
+              only:
+                - master
