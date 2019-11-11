@@ -33,9 +33,9 @@
     "husky": "^3.0.0"
   },
   "devDependencies": {
-    "@xerox/prettier-config": "^1.0.0",
+    "@xerox/prettier-config": "^1.1.1",
     "@xerox/semantic-release-config": "^1.4.0",
-    "prettier": "^1.18.2",
+    "prettier": "^1.19.1",
     "semantic-release": "^15.13.16"
   }
 }
