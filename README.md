@@ -1,4 +1,4 @@
-# @xerox/commitlint-config
+# ~~@xerox/commitlint-config~~ __Archived__: Moved to monorepo [xeroxinteractive/config](https://github.com/xeroxinteractive/config)
 
 > commitlint shareable config for Xerox projects
 
